@@ -36,3 +36,16 @@ git diff
 git diff FILE_NAME
 # To view the changes in the Staging Area
 git diff --staged 
+
+# To Remove a file from Git itself:
+git rm --cached FILE_NAME
+
+# Git Checkout
+git checkout [COMMIT_ID | BRANCH_NAME]
+# The above will check you out to a particular branch or commit 
+git checkout -b [BRANCH_NAME] 
+# Will create a branch & checkout to there. 
+git switch -c BRANCH_NAME
+# This is used to create a branch from a commit
+
+# Create a Remote Repository
