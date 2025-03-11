@@ -1,4 +1,4 @@
-# Config Variables:
+# Config Variables: (Sample)
 git config --ENV[global, local, system, worktree] --ACTION[list, add, get...]
 # ENV => This is the environment level in which we want to store that particular value
 # ACTION => This is the action that we want to perform. 
