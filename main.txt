@@ -1,0 +1,3 @@
+Hello this is a sample text. From Hai-Ken. 
+This is the data. 
+This is a new line.

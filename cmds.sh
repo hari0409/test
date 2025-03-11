@@ -28,3 +28,11 @@ git rm --cached FILE_NAME
 # Commit the File 
 git commit -m "COMMIT_MSG"
 # To make Direct Commits (From Working Directory to Repo)
+git commit -a -m "COMMIT_MSG" # By means of "-a"
+
+# To view the Changes made:
+git diff  
+# To get change for a file
+git diff FILE_NAME
+# To view the changes in the Staging Area
+git diff --staged 
