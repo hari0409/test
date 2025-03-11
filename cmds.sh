@@ -68,4 +68,8 @@ git push
 # Generally push the changes to the remote repo
 git push -u origin [BRANCH]
 # This is used to set the branch to be upstream so we can just use git push
+# Push is used mainly for interacting with Remote Repo. 
 
+# Pull Changes
+git pull
+# Combo of Fetch & Merge to the local repo 
