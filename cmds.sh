@@ -62,7 +62,7 @@ git branch -u [UPSTREAM_BRANCH]
 # Set the branch to be upstream for push & pull
 
 # Remote Repository:
-git remote add origin REMOTE_URL
+git remote add origin [REMOTE_URL]
 # Link a Remote Repository. 
 
 # Push Changes:
@@ -75,3 +75,4 @@ git push -u origin [BRANCH]
 # Pull Changes
 git pull
 # Combo of Fetch & Merge to the local repo 
+git remote add origin REMOTE_URL
