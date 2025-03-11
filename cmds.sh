@@ -63,4 +63,9 @@ git branch -m|-M new-branch-name
 git remote add origin REMOTE_URL
 # Link a Remote Repository. 
 
+# Push Changes:
+git push 
+# Generally push the changes to the remote repo
+git push -u origin [BRANCH]
+# This is used to set the branch to be upstream so we can just use git push
 
