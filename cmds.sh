@@ -26,3 +26,5 @@ git add . OR git add FILE_NAME
 git rm --cached FILE_NAME
 
 # Commit the File 
+git commit -m "COMMIT_MSG"
+# To make Direct Commits (From Working Directory to Repo)
