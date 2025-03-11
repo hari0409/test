@@ -58,6 +58,8 @@ git branch -a
 # list all branch (inc remote)
 git branch -m|-M new-branch-name 
 # Rename the currently present branch to another
+git branch -u [UPSTREAM_BRANCH]
+# Set the branch to be upstream for push & pull
 
 # Remote Repository:
 git remote add origin REMOTE_URL
