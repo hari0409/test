@@ -42,10 +42,25 @@ git rm --cached FILE_NAME
 
 # Git Checkout
 git checkout [COMMIT_ID | BRANCH_NAME]
+git switch [BRANCH_NAME]
 # The above will check you out to a particular branch or commit 
 git checkout -b [BRANCH_NAME] 
-# Will create a branch & checkout to there. 
-git switch -c BRANCH_NAME
+# Will create a branch & checkout to there. New Alternative 
+git switch -c [BRANCH_NAME]
 # This is used to create a branch from a commit
 
-# Create a Remote Repository
+# Branches
+git branch [BRANCH_NAME]
+# Creates new branch 
+git branch 
+# list all branch
+git branch -a
+# list all branch (inc remote)
+git branch -m|-M new-branch-name 
+# Rename the currently present branch to another
+
+# Remote Repository:
+git remote add origin REMOTE_URL
+# Link a Remote Repository. 
+
+
