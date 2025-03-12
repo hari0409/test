@@ -61,6 +61,8 @@ git branch -m|-M new-branch-name
 git branch -u [UPSTREAM_BRANCH]
 # Set the branch to be upstream for push & pull
 
+
+
 # Remote Repository:
 git remote add origin [REMOTE_URL]
 # Link a Remote Repository. 
@@ -77,3 +79,18 @@ git pull
 # Combo of Fetch & Merge to the local repo 
 git remote add origin REMOTE_URL
 
+# Story of Origin
+# THis is used to specify where should we fetch & push the changes. 
+# Usually the same for both. 
+# So whenever we do anything like push: git push origin BRANCH_NAME, its like we are pushing to the Remote Repo's that particular branch.
+git remote -v
+# Get information about the origin
+
+# Tags
+git tag
+# All the tags for the project
+# Types: Annotated Tagging => More Information & Lightweight Tagging => Less Information
+git tag -a TAG_NAME
+# This is can be added after each commit and thus can be used version software at each tag.
+git push origin TAG_NAME
+# To push the tag to the repo.
