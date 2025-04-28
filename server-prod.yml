@@ -15,6 +15,6 @@ custom-config:
     prop2: "Prod Value of Prop 2"
     prop3: "Prod Value of Prop 3"
   list-data:
-    - "Prod Value 1"
-    - "Prod Value 2"
-    - "Prod Value 3"
+    - "Prod Value 10"
+    - "Prod Value 20"
+    - "Prod Value 30"
