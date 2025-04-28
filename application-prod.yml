@@ -9,7 +9,7 @@ appinfo:
     version: s1:1.0
 
 custom-config:
-  name: My Prod Custom Config
+  name: "{cipher}06aab0f6dd841668344c0b4822703fe9f668d35bad7a10e6e79de1074f82f3f5"
   object-data: 
     prop1: "Prod Value of Prop 1"
     prop2: "Prod Value of Prop 2"
