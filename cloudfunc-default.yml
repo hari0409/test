@@ -4,12 +4,12 @@ spring:
   cloud:
     function:
       definition: processData|print
-    # stream:
-    #   bindings:
-    #     processDataprint-in-0:
-    #       destination: student-data
-    #   kafka:
-    #     binder:
-    #       brokers:
-    #         - localhost:9092
+    stream:
+      bindings:
+        processDataprint-in-0:
+          destination: student-data
+      kafka:
+        binder:
+          brokers:
+            - localhost:9092
 
