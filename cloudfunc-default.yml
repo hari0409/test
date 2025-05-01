@@ -1,15 +1,19 @@
+server:
+  port: 9080
 spring:
   application:
     name: cloudfunc
+  config:
+    import:
+      - "optional:configserver:http://localhost:8090/"
   cloud:
-    function:
-      definition: processData|print
     stream:
       bindings:
-        processDataprint-in-0:
-          destination: student-data
-      kafka:
-        binder:
-          brokers:
-            - localhost:9092
-
+        getMyStringLength-in-0:
+          destination: sample-data-channel
+  rabbitmq:
+    host: localhost
+    port: 5672
+    connection-timeout: 10s
+    username: guest
+    password: guest
