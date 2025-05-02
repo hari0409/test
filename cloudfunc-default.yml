@@ -3,17 +3,3 @@ server:
 spring:
   application:
     name: cloudfunc
-  config:
-    import:
-      - "optional:configserver:http://localhost:8090/"
-  cloud:
-    stream:
-      bindings:
-        getMyStringLength-in-0:
-          destination: sample-data-channel
-  rabbitmq:
-    host: localhost
-    port: 5672
-    connection-timeout: 10s
-    username: guest
-    password: guest
