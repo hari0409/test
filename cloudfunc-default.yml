@@ -3,3 +3,8 @@ server:
 spring:
   application:
     name: cloudfunc
+
+appinfo:
+  build:
+    version: c2:3.4
+  
