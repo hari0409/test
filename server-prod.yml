@@ -12,3 +12,10 @@ custom-config:
     - "Prod Value 1"
     - "Prod Value 20"
     - "Prod Value 30"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
