@@ -6,5 +6,5 @@ spring:
 
 appinfo:
   build:
-    version: c1:bus-monitor
+    version: c1:2.0
   
