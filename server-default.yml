@@ -1,6 +1,6 @@
 appinfo:
   build:
-    version: s1:1.0.0
+    version: s1:2.3
 
 custom-config:
   name: "{cipher}9edd9f1cca11edeeafa78ddfd247dcf8f6b6d020117d534fd002c501239e3865"
