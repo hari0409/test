@@ -6,5 +6,5 @@ spring:
 
 appinfo:
   build:
-    version: c1:3.5
+    version: c1:3.6
   
