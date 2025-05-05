@@ -5,7 +5,7 @@ appinfo:
 custom-config:
   name: "{cipher}9edd9f1cca11edeeafa78ddfd247dcf8f6b6d020117d534fd002c501239e3865"
   object-data: 
-    prop1: "Prod Value of Prop 1"
+    prop1: "Prod Value of Prop 0"
     prop2: "Prod Value of Prop 2"
     prop3: "Prod Value of Prop 4"
   list-data:
