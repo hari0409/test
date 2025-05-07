@@ -3,8 +3,18 @@ server:
 spring:
   application:
     name: cloudfunc
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    connection-timeout: 10s
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 appinfo:
   build:
     version: c1:bus-refresh
-  
